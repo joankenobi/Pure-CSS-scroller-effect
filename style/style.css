@@ -126,7 +126,7 @@ h3 {
     display: flex;
     justify-content: center;
 }
-.content h2 span{
+.content h2 p{
     position: sticky;
     top: 0;
     line-height: 100vh;

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container
+{
+    position:relative ;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-behavior:smooth ;
+    scroll-snap-type: y mandatory;
+}
+
+.sec{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#44f;
+    mix-blend-mode: multiply;
+    scroll-snap-align: center ;
+}
+
+h3 {
+    color: #fff;
+    font-size: 10vw;
+    text-align: center;
+    margin: 0 50px;
+    border: 5px solid #f11;
+}
+.sec:nth-child(1){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: #4af url(https://images.unsplash.com/photo-1614747295539-b63708f4a578?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
+
+.sec:nth-child(2){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: rgb(255, 252, 68) url(https://images.unsplash.com/photo-1614599106944-35688ad5119a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.sec:nth-child(3){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: rgb(68, 255, 230) url(https://images.unsplash.com/photo-1614599106944-35688ad5119a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.sec:nth-child(4){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: rgb(68, 81, 255) url(https://images.unsplash.com/photo-1614599106944-35688ad5119a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.sec:nth-child(5){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: rgb(68, 255, 68) url(https://images.unsplash.com/photo-1614599106944-35688ad5119a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.sec:nth-child(6){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: rgb(255, 68, 183) url(https://images.unsplash.com/photo-1614599106944-35688ad5119a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.sec:nth-child(7){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: rgb(255, 152, 68) url(https://images.unsplash.com/photo-1614599106944-35688ad5119a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.sec:nth-child(9){
+    
+    /*background: #f00 url(https://via.placeholder.com/600x500/000011/ff0000?text=Joan+Blanco);
+    */
+    background: rgb(138, 137, 124) url(https://images.unsplash.com/photo-1614599106944-35688ad5119a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.content h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.content h2 span{
+    position: sticky;
+    top: 0;
+    line-height: 100vh;
+    height: 100vh;
+    color: #fff;
+    font-size: 14vw;
+    margin-top: calc(100vh * var(--i));
+}
